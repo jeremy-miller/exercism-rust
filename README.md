@@ -13,6 +13,7 @@ My solutions to Rust [Exercism](http://exercism.io/languages/rust/exercises) exe
 - [Static Code Analysis](#static-code-analysis)
 - [Test](#test)
     - [Run Tests](#run-tests)
+    - [Code Coverage](#code-coverage)
     - [Testify](#testify)
 - [License](#license)
 
@@ -48,6 +49,12 @@ To run `clippy` on the exercises, execute the following steps:
 ### Run Tests
 To run all the tests, execute the following command:
 ```cargo test --all```
+
+### Code Coverage
+To see code coverage of tests, execute the following steps:
+
+1. On Ubuntu/Debian, install prerequisites: ```apt-get update && apt-get install libssl-dev pkg-config cmake zlib1g-dev```
+2. Run `tarpaulin`: ```cargo tarpaulin```
 
 ### Testify
 During development, [`testify`](https://github.com/greyblake/cargo-testify) can be used to watch changes to source
