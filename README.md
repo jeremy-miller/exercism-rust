@@ -47,7 +47,7 @@ To run `clippy` on the exercises, execute the following steps:
 
 ### Run Tests
 To run all the tests, execute the following command:
-```cargo test --all``
+```cargo test --all```
 
 ### Testify
 During development, [`testify`](https://github.com/greyblake/cargo-testify) can be used to watch changes to source
