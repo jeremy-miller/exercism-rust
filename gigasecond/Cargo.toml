@@ -1,0 +1,10 @@
+[package]
+name = "gigasecond"
+version = "0.1.0"
+authors = ["Jeremy Miller <jgmiller88@gmail.com>"]
+
+[dependencies]
+
+[dev-dependencies]
+cargo-outdated = "0.7.0"
+cargo-testify = "0.2.0"
