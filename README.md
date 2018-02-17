@@ -8,6 +8,7 @@ My solutions to Rust [Exercism](http://exercism.io/languages/rust/exercises) exe
 - [Prerequisites](#prerequisites)
 - [Documentation](#documentation)
 - [Build](#build)
+- [Dependencies](#dependencies)
 - [Code Formatting](#code-formatting)
 - [Static Code Analysis](#static-code-analysis)
 - [Test](#test)
@@ -23,6 +24,10 @@ To build and view the documentation for the exercises in your browser, execute t
 ## Build
 To build the exercises, execute the following command:
 ```cargo build --all```
+
+## Dependencies
+To check for outdated dependencies, execute the following command:
+```cargo outdated```
 
 ## Code Formatting
 To run `rustfmt` on the exercises, execute the following steps:
