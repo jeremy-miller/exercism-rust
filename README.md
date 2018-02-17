@@ -54,8 +54,8 @@ During development, [`testify`](https://github.com/greyblake/cargo-testify) can 
 code files and automatically run `cargo test`.  A desktop notification is used to notify the developer of test results.
 To use `testify`, execute the following steps:
 
-1. On Ubuntu/Debian, install prerequisites: `apt-get install -y libdbus-1-dev`
-2. Run `testify`: `cargo testify`
+1. On Ubuntu/Debian, install prerequisites: ```apt-get install -y libdbus-1-dev```
+2. Run `testify`: ```cargo testify```
 
 ## License
 [MIT](https://github.com/jeremy-miller/exercism-rust/blob/master/LICENSE)
