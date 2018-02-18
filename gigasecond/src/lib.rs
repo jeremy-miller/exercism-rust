@@ -17,6 +17,7 @@ use time::Duration;
 /// - `start_date` - Initial [`DateTime`](https://docs.rs/chrono/0.4.0/chrono/struct.DateTime.html) to use as birthday.
 ///
 /// # Return
+///
 /// A [`DateTime`](https://docs.rs/chrono/0.4.0/chrono/struct.DateTime.html) containing the exact date and time
 /// someone has lived for 10<sup>9</sup> seconds based on the [`start_date`](fn.after.html#arguentsfield.start_date).
 pub fn after(start_date: DateTime<Utc>) -> DateTime<Utc> {
