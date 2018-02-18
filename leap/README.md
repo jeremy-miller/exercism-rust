@@ -1,7 +1,7 @@
-# Gigasecond
-Calculate the moment when someone has lived for 10<sup>9</sup> seconds.
+# Leap
+Given a year, report if it is a leap year.
 
-[Source](http://exercism.io/exercises/rust/gigasecond/readme)
+[Source](http://exercism.io/exercises/rust/leap/readme)
 
 ## Table of Contents
 - [Documentation](#documentation)
@@ -15,11 +15,11 @@ Calculate the moment when someone has lived for 10<sup>9</sup> seconds.
     - [Testify](#testify)
 
 ## Documentation
-To build and view the documentation for the exercises in your browser, execute the following command:
+To build and view the documentation in your browser, execute the following command:
 ```cargo doc --open```
 
 ## Build
-To build the exercises, execute the following command:
+To build, execute the following command:
 ```cargo build --all```
 
 ## Dependencies
@@ -27,14 +27,13 @@ To check for outdated dependencies, execute the following command:
 ```cargo outdated```
 
 ## Code Formatting
-To run [`rustfmt`](https://github.com/rust-lang-nursery/rustfmt) on the exercises, execute the following steps:
+To run [`rustfmt`](https://github.com/rust-lang-nursery/rustfmt), execute the following steps:
 
 1. Install `rustfmt`: ```rustup component add rustfmt-preview```
 2. Run `rustfmt`: ```cargo fmt --all```
 
 ## Static Code Analysis
-To run [`clippy`](https://github.com/rust-lang-nursery/rust-clippy) on the exercises,
-execute the following steps:
+To run [`clippy`](https://github.com/rust-lang-nursery/rust-clippy), execute the following steps:
 
 1. Install `clippy` (requires Rust [nightly](https://github.com/rust-lang-nursery/rustup.rs#working-with-nightly-rust)): ```cargo +nightly install clippy```
 2. Run `clippy`: ```cargo +nightly clippy --all```
