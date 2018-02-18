@@ -41,8 +41,7 @@ To run [`clippy`](https://github.com/rust-lang-nursery/rust-clippy), execute the
 ## Test
 
 ### Run Tests
-To run all the tests, execute the following command:
-```cargo test --all```
+To run all the tests, execute the following command: ```cargo test --all```
 
 ### Code Coverage
 To see code coverage of tests (via [`tarpaulin`](https://github.com/xd009642/tarpaulin)),
