@@ -47,7 +47,7 @@ To run all the tests, execute the following command:
 ### Code Coverage
 To see code coverage of tests, execute the following steps:
 
-1. On Ubuntu/Debian, install prerequisites: ```apt-get update && apt-get install libssl-dev pkg-config cmake zlib1g-dev```
+1. On Ubuntu/Debian, install prerequisites: ```sudo apt update && sudo apt install libssl-dev pkg-config cmake zlib1g-dev```
 2. Run `tarpaulin`: ```cargo tarpaulin```
 
 ### Testify
@@ -55,5 +55,5 @@ During development, [`testify`](https://github.com/greyblake/cargo-testify) can 
 code files and automatically run `cargo test`.  A desktop notification is used to notify the developer of test results.
 To use `testify`, execute the following steps:
 
-1. On Ubuntu/Debian, install prerequisites: ```apt-get install -y libdbus-1-dev```
+1. On Ubuntu/Debian, install prerequisites: ```sudo apt install -y libdbus-1-dev```
 2. Run `testify`: ```cargo testify```
