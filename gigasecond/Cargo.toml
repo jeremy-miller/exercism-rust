@@ -5,6 +5,7 @@ authors = ["Jeremy Miller <jgmiller88@gmail.com>"]
 
 [dependencies]
 chrono = "0.4.0"
+time = "0.1.39"
 
 [dev-dependencies]
 cargo-outdated = "0.7.0"
