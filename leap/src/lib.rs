@@ -7,9 +7,10 @@
 /// Given a year, report if it is a leap year
 ///
 /// A year is a leap year in the Gregorian calendar if:
+///
 /// - it is evenly divisible by 4
-///     - except if it is also evenly divisible by 100
-///         - unless it is also evenly divisible by 400
+/// - except if it is also evenly divisible by 100
+/// - unless it is also evenly divisible by 400
 ///
 /// # Arguments
 ///
