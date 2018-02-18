@@ -7,7 +7,7 @@
 extern crate chrono;
 extern crate time;
 
-use chrono::prelude::{ DateTime, Utc };
+use chrono::prelude::{DateTime, Utc};
 use time::Duration;
 
 /// Calculate the moment when someone has lived for 10<sup>9</sup> seconds.
