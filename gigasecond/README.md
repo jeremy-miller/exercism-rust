@@ -27,13 +27,14 @@ To check for outdated dependencies, execute the following command:
 ```cargo outdated```
 
 ## Code Formatting
-To run `rustfmt` on the exercises, execute the following steps:
+To run [`rustfmt`](https://github.com/rust-lang-nursery/rustfmt) on the exercises, execute the following steps:
 
 1. Install `rustfmt`: ```rustup component add rustfmt-preview```
 2. Run `rustfmt`: ```cargo fmt --all```
 
 ## Static Code Analysis
-To run `clippy` on the exercises, execute the following steps:
+To run [`clippy`](https://github.com/rust-lang-nursery/rust-clippy) on the exercises,
+execute the following steps:
 
 1. Install `clippy` (requires Rust [nightly](https://github.com/rust-lang-nursery/rustup.rs#working-with-nightly-rust)): ```cargo +nightly install clippy```
 2. Run `clippy`: ```cargo +nightly clippy --all```
@@ -45,7 +46,8 @@ To run all the tests, execute the following command:
 ```cargo test --all```
 
 ### Code Coverage
-To see code coverage of tests, execute the following steps:
+To see code coverage of tests (via [`tarpaulin`](https://github.com/xd009642/tarpaulin)),
+execute the following steps:
 
 1. On Ubuntu/Debian, install prerequisites: ```sudo apt update && sudo apt install libssl-dev pkg-config cmake zlib1g-dev```
 2. Run `tarpaulin`: ```cargo tarpaulin```
