@@ -20,8 +20,6 @@
 ///
 /// `bool` of whether or not the given [`year`](fn.is_leap_year.html#arguentsfield.year) is a leap year.
 pub fn is_leap_year(year: i32) -> bool {
-    if year % 4 == 0 && (year % 100 != 0 || (year % 100 == 0 && year % 400 == 0)) {
-        return true;
-    }
-    false
+    let is_divisible = |n| year % n == 0;
+    is_divisible(4) && (!is_divisible(100) || is_divisible(400))
 }
