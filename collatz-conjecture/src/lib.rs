@@ -27,7 +27,7 @@ pub fn collatz(n: u64) -> Result<u64, &'static str> {
 
     let (_, count) = collatz_positive(n, 0);
 
-    return Ok(count);
+    Ok(count)
 }
 
 fn collatz_positive(n: u64, count: u64) -> (u64, u64) {
@@ -35,8 +35,9 @@ fn collatz_positive(n: u64, count: u64) -> (u64, u64) {
         return (n, count);
     }
 
-    match n % 2 == 0 {
-        true => collatz_positive(n / 2, count + 1),
-        false => collatz_positive(n * 3 + 1, count + 1),
+    if n % 2 == 0 {
+        collatz_positive(n / 2, count + 1)
+    } else {
+        collatz_positive(n * 3 + 1, count + 1)
     }
 }

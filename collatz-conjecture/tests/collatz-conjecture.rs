@@ -19,7 +19,7 @@ fn test_12() {
 
 #[test]
 fn test_1000000() {
-    assert_eq!(Ok(152), collatz(1000000));
+    assert_eq!(Ok(152), collatz(1_000_000));
 }
 
 #[test]
