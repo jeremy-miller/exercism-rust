@@ -37,6 +37,6 @@ fn collatz_positive(n: u64, count: u64) -> (u64, u64) {
 
     match n % 2 == 0 {
         true => collatz_positive(n / 2, count + 1),
-        false => collatz_positive(n * 3 + 1, count + 1)
+        false => collatz_positive(n * 3 + 1, count + 1),
     }
 }
